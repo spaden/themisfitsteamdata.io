@@ -1,0 +1,42 @@
+#mnimg {
+    margin-top: 0.8em;
+    margin-left: 10%;
+    width: 80%;
+    height: 10.9em;
+    opacity: 0.899;
+    margin-bottom: 0.98em;
+    box-shadow: 10px 5px 10px #888888;
+}
+
+#titicn {
+    margin-left: 6.4em;
+}
+
+#pnts>li {
+    font-size: 0.9em;
+}
+
+#b1 {
+    background-color: #ecf0f1;
+}
+
+#scimg {
+    margin-top: 0.19em;
+    height: 9em;
+    box-shadow: -4px 3px 5px #888888;
+    background-color: #ddece3;
+}
+
+#titcn {
+    margin-right: 7.9em;
+}
+
+#bc1 {
+    background-color: #f3eeed;
+    margin-top: 0.8em;
+    opacity: 0.8;
+}
+
+body {
+    background-color: #f1f1f1;
+}
