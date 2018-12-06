@@ -5,15 +5,35 @@
     height: 10.9em;
     opacity: 0.899;
     margin-bottom: 0.98em;
-    box-shadow: 10px 5px 10px #888888;
+    box-shadow: 15px 8px 19px #888888;
+}
+
+#tit {
+    margin-left: 0.9em;
 }
 
 #titicn {
     margin-left: 6.4em;
 }
 
+#b2 {
+    box-shadow: 10px 7px 15px #888888;
+}
+
+.appbck {
+    background-color: #faf6f5;
+    box-shadow: -4px 3px 5px #ede9e8;
+    float: left;
+    margin-top: 0.7em;
+    margin-bottom: 0.9em;
+    margin-left: 1.2em;
+    margin-right: 1.4em;
+}
+
 #pnts>li {
-    font-size: 0.9em;
+    font-size: 1.0em;
+    margin-top: 0.5em;
+    margin-left: 0.2em;
 }
 
 #b1 {
@@ -21,8 +41,7 @@
 }
 
 #scimg {
-    margin-top: 0.19em;
-    height: 9em;
+    margin-top: 0.3em;
     box-shadow: -4px 3px 5px #888888;
     background-color: #ddece3;
 }
