@@ -16,6 +16,17 @@
     margin-left: 6.4em;
 }
 
+#det {
+    margin-top: 3.5em;
+    margin-left: 6.6em;
+    margin-bottom: 1.7em;
+    box-shadow: 10px 7px 15px #888888;
+}
+
+#det>i {
+    color: #f3eeed;
+}
+
 #b2 {
     box-shadow: 10px 7px 15px #888888;
 }
