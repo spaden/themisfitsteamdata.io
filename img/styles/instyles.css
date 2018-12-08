@@ -23,6 +23,29 @@
     box-shadow: 10px 7px 15px #888888;
 }
 
+.tm {
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+.tmimg {
+    height: 8.8em;
+    width: 8em;
+    margin-bottom: 3em;
+}
+
+.crtimg {
+    height: 9em;
+    width: 9em;
+}
+
+.tstimg {
+    margin-left: 1.3em;
+    height: 8.8em;
+    width: 8em;
+    margin-top: 7.6em;
+}
+
 #det>i {
     color: #f3eeed;
 }

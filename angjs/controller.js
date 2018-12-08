@@ -1,6 +1,6 @@
 app.controller('Whole', function($scope, $location) {
     $scope.testing = "Cool man working";
-    $scope.go = function() {
-        $location.path('/tomato');
+    $scope.hey = function(event) {
+        console.log(event.target.id);
     }
 });
