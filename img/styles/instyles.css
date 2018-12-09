@@ -28,11 +28,23 @@
     margin-left: 3em;
 }
 
+#off {
+    background-color: #faeae6;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#foot {
+    background-color: #e1dddc;
+}
+
 .tmimg {
     height: 8.8em;
     width: 8em;
-    margin-bottom: 3em;
+}
 
+.mgbt {
+    margin-bottom: 3em;
 }
 
 .crtimg {

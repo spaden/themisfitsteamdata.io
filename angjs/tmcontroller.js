@@ -1,3 +1,3 @@
-app.controller('Yogetti', function($scope, $routeParams) {
+app.controller('TmCont', function($scope, $routeParams) {
     $scope.hey = $routeParams.firstname;
 })

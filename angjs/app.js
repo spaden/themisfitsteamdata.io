@@ -5,11 +5,12 @@ app.config(function($routeProvider) {
             templateUrl: 'temp/mn.htm',
             controller: "Whole"
         })
-        .when("/banana/:firstname", {
+        .when("/team/:firstname", {
             templateUrl: "temp/temv.htm",
-            controller: "Yogetti"
+            controller: "TmCont"
         })
-        .when("/tomato", {
-            template: "<h1>Tomato</h1><p>Tomatoes contain around 95% water.</p>"
+        .when("/intn/:name", {
+            templateUrl: "temp/indv.htm",
+            controller: "IntnCont"
         });
 });
