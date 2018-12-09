@@ -2,15 +2,38 @@
 <br>
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-lg-8 col-xl-8 col-sm-8">
-            <div id="hd">
-                <h5>{{test}}</h5>
+        <div class="col-md-7 col-lg-7 col-xl-7 col-sm-7" id="hd">
+            <div>
+                <div id="test">
+                    <div>
+                        <h5 id="desg">{{test}}</h5>
+                    </div>
+                </div>
                 <br>
-                <i>{{hey}}</i>
+                <div class="det">
+                    <b><i>{{test2.name}}</i></b>
+                    <br><br>
+                    <b>Team Size Handled: <i> {{test2.teamsize}}</i></b>
+                    <br><br>
+                    <b>Overall rating: <i>{{test2.rating}}/5</i></b>
+                    <br><br>
+                </div>
+            </div>
+
+        </div>
+        <div style="background-color:   #ecf0f1 ;" class="col-md-3 col-sm-3 col-lg-3 col-xl-3 col-xs-3">
+            <img style="box-shadow: 5px 7px 10px #888888;" class="img-rounded" src="img/elon.jpg">
+        </div>
+
+        <span class="col-md-2 col-xl-2 col-lg-2 col-sm-2 lef">
+        </span>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">Basic card</div>
             </div>
         </div>
-        <span class="col-md-4 col-xl-4 col-lg-4 col-sm-4">
-            {{test2}}
-        </span>
     </div>
 </div>
