@@ -1,6 +1,7 @@
 #hd {
     background-color: #d7ccca;
     box-shadow: -10px 7px 15px #888888;
+    opacity: 0.89;
 }
 
 .det {
@@ -9,6 +10,25 @@
 
 i {
     font-size: 1.3em;
+    font-family: 'Aldrich';
+}
+
+#pnts {
+    margin-left: 10%;
+    box-shadow: -5px 7px 15px #888888;
+}
+
+#pnts>li {
+    margin-left: 8%;
+}
+
+#lpnt {
+    background-color: #dce3e5;
+}
+
+#stimg {
+    margin-top: 10%;
+    margin-left: 12%;
 }
 
 .des {
@@ -16,13 +36,16 @@ i {
 }
 
 #desg {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     margin-left: 7em;
     text-decoration-line: underline;
 }
 
 .lef {
-    background-color: #5d6d7e;
-    box-shadow: -5px 7px 15px #888888;
+    background-image: url('/img/grad.jpg');
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 20px #888888;
 }
 
 #test {
