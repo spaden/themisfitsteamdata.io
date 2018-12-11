@@ -12,7 +12,7 @@ app.config(function($routeProvider) {
         .when("/intn", {
             templateUrl: "temp/intn.htm",
             controller: "IntnCont"
-        }).when("/indv", {
+        }).when("/indv/:name", {
             templateUrl: "temp/indv.htm",
             controller: "IndvCont"
         });

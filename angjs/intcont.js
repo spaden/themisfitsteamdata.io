@@ -1,4 +1,4 @@
-app.controller('IntnCont', function($scope) {
+app.controller('IntnCont', function($scope, $location) {
     $scope.list = [{
             name: 'Dasari Sumanth',
             teamNumber: 3,
@@ -30,7 +30,7 @@ app.controller('IntnCont', function($scope) {
             review: 'Diligent Team player'
         },
         {
-            name: 'Intern delhi',
+            name: 'Preeti Das',
             teamNumber: 2,
             rating: 4.9,
             review: 'Motivated and dexterous'
@@ -49,4 +49,7 @@ app.controller('IntnCont', function($scope) {
         }
 
     ];
+    $scope.test = function(event) {
+        $location.path('/indv/' + event.target.id);
+    }
 });
