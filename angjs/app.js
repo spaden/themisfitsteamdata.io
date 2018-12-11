@@ -9,8 +9,11 @@ app.config(function($routeProvider) {
             templateUrl: "temp/temv.htm",
             controller: "TmCont"
         })
-        .when("/intn/:name", {
-            templateUrl: "temp/indv.htm",
+        .when("/intn", {
+            templateUrl: "temp/intn.htm",
             controller: "IntnCont"
+        }).when("/indv", {
+            templateUrl: "temp/indv.htm",
+            controller: "IndvCont"
         });
 });
