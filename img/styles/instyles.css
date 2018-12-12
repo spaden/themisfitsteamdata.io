@@ -8,6 +8,10 @@
     box-shadow: 15px 8px 19px #888888;
 }
 
+#sil {
+    font-size: 0.8em;
+}
+
 #tit {
     margin-left: 0.9em;
 }
@@ -67,10 +71,9 @@
     box-shadow: 4px 2px 5px #888888;
 }
 
-.appbck {
+#appbck {
     background-color: #faf6f5;
     box-shadow: -4px 3px 5px #ede9e8;
-    float: left;
     margin-top: 0.7em;
     margin-bottom: 0.9em;
     margin-left: 1.2em;
