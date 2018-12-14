@@ -15,7 +15,7 @@ app.controller('TmCont', function($scope, $routeParams) {
         var obj;
         if (name == 'dlg') {
             obj = {
-                name: 'Dachupally Guru Lekhan Sai',
+                name: 'Dachepalli Lekhan Guru Sai',
                 teamsize: 18,
                 rating: 4.5,
                 points: [
