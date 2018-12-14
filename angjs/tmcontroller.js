@@ -1,6 +1,6 @@
 app.controller('TmCont', function($scope, $routeParams) {
     $scope.hey = $routeParams.firstname;
-
+    $scope.im = $routeParams.im;
     if ($routeParams.firstname == 'spaden') {
         this.who = "Creator | Full Stack Developer | Project Manager";
     } else if ($routeParams.firstname == 'asbn') {
@@ -25,7 +25,8 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Coerces his team members to get the work done on time',
                     'Mostly gives people a second chance'
                 ],
-                review: 'Motivated Team Player'
+                review: 'Motivated Team Player',
+                im: 'img/elon.jpg'
             }
         } else if (name == 'rahul') {
             obj = {
@@ -39,7 +40,8 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Has an ability to see an issue with equanimity',
                     'Motivated and diligent team player'
                 ],
-                review: 'Impressive management'
+                review: 'Impressive management',
+                im: 'img/elon.jpg'
             }
         } else if (name == 'nimesh') {
             obj = {
@@ -53,7 +55,8 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Quick learner and highly motivated in case he sets his mind to',
                     'Impresively communicated the story behind our project idea to inters'
                 ],
-                review: 'Never disappoints'
+                review: 'Never disappoints',
+                im: 'img/elon.jpg'
             }
         } else if (name == 'sumanth') {
             obj = {
@@ -67,7 +70,8 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Diligent and energetic',
                     'Glib talker and even a garrulous one'
                 ],
-                review: 'Really cool'
+                review: 'Really cool',
+                im: 'img/elon.jpg'
             }
         } else if (name == 'asbn') {
             obj = {
@@ -81,13 +85,15 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Tested the whole web site for bugs on a regular basis and presented a clear report',
                     'Managed 20 plus interns without loosing a single one'
                 ],
-                review: 'Confident'
+                review: 'Confident',
+                im: 'img/elon.jpg'
             }
         } else {
             obj = {
                 name: 'Dheshoju Kalyan Kumar',
                 teamsize: 5,
-                rating: 2
+                rating: 2,
+                im: 'img/kalyan.jpg'
             }
         }
         return obj;
