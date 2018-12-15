@@ -26,7 +26,7 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Mostly gives people a second chance'
                 ],
                 review: 'Motivated Team Player',
-                im: 'img/elon.jpg'
+                im: 'img/lekhan.jpg'
             }
         } else if (name == 'rahul') {
             obj = {
@@ -71,7 +71,7 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Glib talker and even a garrulous one'
                 ],
                 review: 'Really cool',
-                im: 'img/elon.jpg'
+                im: 'img/sumanth.jpg'
             }
         } else if (name == 'asbn') {
             obj = {
@@ -86,7 +86,7 @@ app.controller('TmCont', function($scope, $routeParams) {
                     'Managed 20 plus interns without loosing a single one'
                 ],
                 review: 'Confident',
-                im: 'img/elon.jpg'
+                im: 'img/asbn.jpg'
             }
         } else {
             obj = {
